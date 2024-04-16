@@ -12,7 +12,7 @@ pip install requirements.txt
 Project: Building a Semantic Search Engine using LangChain and Chroma
 This project demonstrates the use of LangChain and Chroma to create a semantic search engine for a collection of documents.
 
-##Key Features
+## Key Features
 Document Loader: The project uses the TextLoader from LangChain to load a text file named essay.txt as the input document.
 Text Splitting: The CharacterTextSplitter is used to split the document into smaller chunks of text, with a chunk size of 1000 characters and a chunk overlap of 0.
 Embeddings: The SentenceTransformerEmbeddings is used to generate vector embeddings for the text chunks, using the pre-trained "all-MiniLM-L6-v2" model.
@@ -23,7 +23,7 @@ Ensure you have the required dependencies installed, including langchain, chroma
 Place the essay.txt file in the same directory as your Python script.
 Run the provided code to load the document, split it into chunks, create the vector store, and perform a semantic search.
 The search results will be printed to the console, displaying the content of the most relevant text chunk.
-Next Steps
+## Next Steps
 Explore different text splitting strategies and embedding models to optimize the performance of the semantic search.
 Integrate the search functionality into a user-friendly web application or API.
 Investigate ways to handle larger document collections and scale the vector store accordingly.
